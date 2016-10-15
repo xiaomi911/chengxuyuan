@@ -1,0 +1,241 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.pos(r){
+	position:relative;
+}
+.pos(o){
+	position:absolute;
+}
+html,body,.box{
+
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	background-image:url(../image/bj.png);
+.move{
+	width:100%;
+	height:100%;
+	}
+.page{
+	width:100%;
+	height:100%;
+
+	display:-webkit-box;
+	-webkit-box-align:center;
+	-webkit-box-pack:center;
+
+	}
+
+}
+.min,.min1,.min2{
+	width:50px;
+	height:50px;
+	background:#000;
+}
+.box .move .page *{
+	display:none;
+}
+.box .move .page.active *{
+	display:block;
+}
+.page1{
+	-webkit-box-orient: vertical;
+}
+.page1 .img{
+	width:80%;
+	.pos(r);
+}
+.page1 .m1{
+	width:100%;
+	display:block;
+}
+.page1 .m2{
+	width:100%;
+	display:block;
+	.pos(o);
+	top:0px;
+	left:0px;
+}
+.page1 .yan{
+	width:50%;
+	display:block;
+	margin-top:-10px;
+
+}
+.page1 .logo{
+	width:50%;
+	display:block;
+	margin-top:40px;
+}
+.page2 .div{
+	width:80%;
+	height:60%;
+	.pos(r);
+}
+.page2 .div .lable{
+	display:none;
+	.pos(o);
+}
+.page2 .div .lable1{
+	width: 25%;
+	left: 5%;
+	top: 8%;
+	display: block;
+-webkit-animation-delay: 0;
+}
+.page2 .div .lable2{
+				width: 40%;
+				left: 32%;
+				top: 0%;
+				display: block;
+				-webkit-animation-delay: .2s;
+			}
+			.page2 .div .lable3{
+				width: 25%;
+				right: 2%;
+				top: 5%;
+				display: block;
+				-webkit-animation-delay: .4s;
+			}
+			
+			
+			.page2 .div .lable4{
+				  width: 25%;
+				  left: 0;
+				  top: 25%;
+				  display: block;
+				  -webkit-animation-delay: .6s;
+			}
+			.page2 .div .lable5{
+				    width: 50%;
+				  left: 26%;
+				  top: 20%;
+				  display: block;
+				  -webkit-animation-delay: .8s;
+			}
+			
+			.page2 .div .lable6{
+				    width: 23%;
+				  right: 0;
+				  top: 25%;
+				  display: block;
+				  -webkit-animation-delay: 1s;
+			}
+			.page2 .div .lable7{
+				      width: 35%;
+					  left: 9%;
+					  top: 45%;
+					  display: block;
+				  -webkit-animation-delay: 1.2s;
+			}
+			.page2 .div .lable8{
+			        width: 46%;
+					  right: 9%;
+					  top: 42%;
+					  display: block;
+				  -webkit-animation-delay: 1.4s;
+			}
+			.page2 .div .lable9{
+			       width: 25%;
+				  left: 20%;
+				  top: 62%;
+				  display: block;
+				  -webkit-animation-delay: 1.6s;
+			}
+			.page2 .div .lable10{
+			        width: 40%;
+				  right: 15%;
+				  top: 59%;
+				  display: block;
+				  -webkit-animation-delay: 1.8s;
+			}
+			.page2 .div .lable11{
+			         width: 20%;
+				  right: 35%;
+				  top: 73%;
+				  display: block;
+				  -webkit-animation-delay: 2s;
+			}
+			.page3 .div1{
+
+				-webkit-box-orient:vertical;
+			}
+			.page3 div{
+
+				width:90%;
+				margin-bottom:20px;
+				img{
+					width:100%;
+					display:block;
+				}
+
+
+			}
+			.page4 {
+				-webkit-box-orient:vertical;
+			}
+			.page4 div{
+				width:80%;
+				margin-bottom:20px;
+			}
+			.page4 div img{
+				width:100%;
+				display:block;
+			}
+			.page4 >div.btn img{
+				width: 50%;
+				display: block;
+				margin: 0 auto;
+			}
+			.logTip{
+				.pos(o);
+				top:0px;
+				left:0px;
+				width:100%;
+				height:100%;
+				display:none;
+				background-image:url(../image/bj.png);
+
+			}
+			.logTip .pic{
+					width:90%;
+					height:80%;
+					margin:30px auto;	
+			}
+			.logTip .pic dl{
+					float:left;
+					margin-left:10px;
+					dt{
+						width:80px;
+						height:80px;
+						
+						img{
+							width:100%;
+						}
+					}
+					dd{
+						width:50px;
+						height:50px;
+						margin-left:20px;
+						img{
+							width:100%;
+						}
+					}
+
+			}
+			.audio{
+				width:30px;
+				height:30px;
+				background:url(../image/music.png) no-repeat;
+				background-size:200%;
+				background-position: right center;
+				.pos(o);
+				top:10px;
+				right:10px;
+				z-index:999;
+			}
+			.audio.stop{
+				background-position: left center;
+			}
